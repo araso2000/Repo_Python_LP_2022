@@ -18,4 +18,4 @@ def copyfile(origen, *destinos):
 
     print("Copia completada!")
 
-copyfile("origen.txt","copia1.txt","copia2.txt")
+copyfile("origen.txt","copia1.txt","copia2.txt","copia3.txt","copia4.txt","copia5.txt","copia6.txt","copia7.txt")
