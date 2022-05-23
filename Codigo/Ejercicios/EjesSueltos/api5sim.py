@@ -33,13 +33,13 @@ if __name__ == "__main__":
         respuesta = comprar(producto)
         print(f"Telefono: {respuesta['phone']} - Precio: {respuesta['price']}")
 
-        while (getSMS(respuesta['id'])['status'] != "RECEIVED"):
+        while (len(getSMS(respuesta['id'])['sms'])==0):
             print("Esperando SMS...")
             time.sleep(5)
 
         sms = getSMS(respuesta['id'])
         print(sms)
-        #print(f"      ->Codigo: {sms['sms.code']}\n      ->Texto: {sms['sms.text']}")
+        print(f"      ->Codigo: {sms['sms'][0]['code']}\n      ->Texto: {sms['sms']['text']}")
 
         print("Quieres otro telefono? 1-SI / 0-NO")
         opt = int(input())
