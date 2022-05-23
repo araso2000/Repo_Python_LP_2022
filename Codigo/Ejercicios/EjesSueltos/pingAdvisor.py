@@ -45,7 +45,7 @@ else:
         fallos = 0
         while(1):
             texto = ""
-            if contador == 1:
+            if contador == 60:
                 if aciertos == contador:
                     texto = "\n\nTodos los PING han sido resueltos CORRECTAMENTE.\n\n"
                 elif fallos == contador:

@@ -1,11 +1,15 @@
 #Eje 7
 
 def sumaResta(lista):
-    for ii in range(0,6):
-        print(lista[ii+1:ii+2:2] + lista[ii:ii+2:2])
-
-    print(lista[1::2])
-    print(lista[0::2])
-
+    operacion = 0 #0 es suma y 1 es resta
+    suma = lista[0]
+    for x in range(1,len(lista)):
+        if operacion == 0:
+            suma = suma + lista[x]
+            operacion = 1
+        else:
+            suma = suma - lista[x]
+            operacion = 0
+    print(suma)
 
 sumaResta([10, 20, 30, 40, 50,60])
