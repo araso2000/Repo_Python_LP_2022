@@ -3,7 +3,7 @@
 import requests
 import time
 
-token = 'eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODQ4NTEwNjAsImlhdCI6MTY1MzMxNTA2MCwicmF5IjoiZmYxMzI2Nzg4ODI2OWFjYTJmNGIzZjNmNzRmMzAzMTciLCJzdWIiOjM0NTkwMH0.Sr0T-ww6VJ_XCgArJdhPyUsbzlgksVM7OfEvlD3tjoOWToAiroQ2AWuBH-HHcjJNDZ7kof-a0GhD8DvPvaRI19C4YJj8ysgOAz30u5uGTwKp-LpaSgSjGVPRu0aNuH-Yo1ehrnWiaysBiE19ey7d4Uby6cf09ETWex2gkh2oRf-y5maQ-1uVl_RETPkA2ks_LeNIx8AQ9puiIi90Eu3z7DvaktmHVP3XEh6fGJEpLR_egurFXRd7mNbxwxH9NQ2UhoUbRE8gnQngzfdNGGccuHvzzC5T3RD4eFjFFPIZakHNNcNkwOrPAn9KOO6XXZmOG3zP3F_5QBMv7WVjX1gwmA'
+token = ''
 headers = {
     'Authorization': 'Bearer ' + token,
     'Accept': 'application/json',
