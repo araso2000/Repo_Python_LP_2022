@@ -30,7 +30,7 @@ def email(texto,host):
     server.starttls()
     server.login("grooveip634@gmail.com","")
 
-    server.sendmail("grooveip634@gmail.com","a.raso.pasero@gmail.com",msg.as_string())
+    server.sendmail("grooveip634@gmail.com","",msg.as_string())
 
     server.quit()
 
