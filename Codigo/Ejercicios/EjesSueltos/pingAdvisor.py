@@ -27,7 +27,7 @@ def email(texto,host):
 
     server = smtplib.SMTP('smtp.gmail.com: 587')
     server.starttls()
-    server.login("grooveip634@gmail.com","Alvaro45180")
+    server.login("grooveip634@gmail.com","")
 
     server.sendmail("grooveip634@gmail.com","a.raso.pasero@gmail.com",msg.as_string())
 
