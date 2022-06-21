@@ -1,6 +1,6 @@
 #Eje 7
 
-def sumaResta(lista):
+def sumaResta(lista: object):
     operacion = 0 #0 es suma y 1 es resta
     suma = lista[0]
     for x in range(1,len(lista)):
